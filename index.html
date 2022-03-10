@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Planner Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="modal display">
+      <form class="form" action="#">
+        <div class="form_inputs">
+          <label class="form_label" for="name">Enter name:</label>
+          <input type="text" id="name" class="form_input" placeholder="Name..." value="">
+          <label class="form_label" for="time">Enter time:</label>
+          <input type="text" id="time" class="form_input" placeholder="Time..." value="">
+          <label class="form_label" for="place">Enter place:</label>
+          <input type="text" id="place" class="form_input" placeholder="Place..." value="">
+        </div>
+        <div class="form_buttons">
+          <button type="button" class="confirm_btn" onclick="invalidData()">Confirm</button>
+          <button type="button" class="converter_btn" onclick="convertMoney()">Converter</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>
